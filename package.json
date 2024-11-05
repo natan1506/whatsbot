@@ -1,0 +1,10 @@
+{
+	"devDependencies": {
+		"turbo": "^1.5.6"
+	},
+	"scripts": {
+		"build": "tsc && vite build",
+		"dev": "turbo run dev --parallel --no-daemon"
+	}
+	
+}
